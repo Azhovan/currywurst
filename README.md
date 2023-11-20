@@ -142,3 +142,9 @@ curl -X POST -H "Content-Type: application/json" \
 
 ## Dependencies
 There is no dependencies to any third party library.
+
+## Tests
+To run the tests use following command in the root of the project: 
+```shell 
+go test -race ./...
+```
