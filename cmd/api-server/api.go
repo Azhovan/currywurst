@@ -38,8 +38,8 @@ type OrderRequest struct {
 	InsertedPrice int `json:"insertedPrice"`
 }
 
-// orderResponse is a struct type that represents an order response to the customer.
-type orderResponse struct {
+// OrderResponse is a struct type that represents an order response to the customer.
+type OrderResponse struct {
 	// Returned is the amount of money returned to the customer in a human-readable format.
 	Returned string `json:"returned"`
 }
@@ -93,7 +93,7 @@ func (h *Handler) orderHandler(w http.ResponseWriter, r *http.Request) {
 	// write the response to the client as JSON
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(http.StatusOK)
-	json.NewEncoder(w).Encode(response)
+	json.NewEncoder(w).Encode(OrderResponse{Returned: response})
 }
 
 // validateRequest checks the method and the pin of the request
@@ -215,5 +215,3 @@ func (h *Handler) writeJSONError(w http.ResponseWriter, err *httpError) {
 	w.WriteHeader(err.StatusCode)
 	json.NewEncoder(w).Encode(map[string]string{"error": err.Message})
 }
-
-// curl -X POST -H "Content-Type: application/json" -H "X-Pin: 1234" -d '{"terminalId": "terminal-1", "insertedPrice": 10, "orderType": "pizza"}' http://localhost:8080/order
