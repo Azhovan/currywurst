@@ -3,9 +3,9 @@ package utils
 import (
 	"strconv"
 
-	"github.com/currywurst/internal/cashregister"
-	"github.com/currywurst/internal/terminals"
-	"github.com/currywurst/internal/workers"
+	"github.com/azhovan/currywurst/internal/cashregister"
+	"github.com/azhovan/currywurst/internal/terminals"
+	"github.com/azhovan/currywurst/internal/workers"
 )
 
 // CreateTerminalWorkers creates the workers and the terminals and returns them as a map and a cash register.

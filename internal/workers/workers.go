@@ -1,12 +1,10 @@
-// Package workers provides a worker that can process orders from a terminal
-// and return change using a cash register.
 package workers
 
 import (
-	"github.com/currywurst/internal/cashregister"
-	"github.com/currywurst/internal/orders"
-	"github.com/currywurst/internal/terminals"
-	"github.com/currywurst/pkg"
+	"github.com/azhovan/currywurst/internal/cashregister"
+	"github.com/azhovan/currywurst/internal/orders"
+	"github.com/azhovan/currywurst/internal/terminals"
+	"github.com/azhovan/currywurst/pkg"
 )
 
 // Worker represents a worker that can process orders from a terminal and return change using a cash register.

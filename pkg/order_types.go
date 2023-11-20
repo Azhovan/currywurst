@@ -1,5 +1,3 @@
-// Package cashregister provides a CashRegister struct that can calculate and return
-// the change for a given price and inserted amount of money.
 package pkg
 
 // OrderType is an interface that represents a type of order that can be processed

@@ -7,7 +7,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/currywurst/internal/orders"
+	"github.com/azhovan/currywurst/internal/orders"
 )
 
 func Test_PutGetOrder(t *testing.T) {

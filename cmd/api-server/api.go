@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/currywurst/internal/orders"
-	"github.com/currywurst/internal/terminals"
+	"github.com/azhovan/currywurst/internal/orders"
+	"github.com/azhovan/currywurst/internal/terminals"
 )
 
 // Handler is a struct that handles HTTP requests.

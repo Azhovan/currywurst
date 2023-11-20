@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/currywurst/internal/cashregister"
-	"github.com/currywurst/internal/orders"
-	"github.com/currywurst/internal/terminals"
+	"github.com/azhovan/currywurst/internal/cashregister"
+	"github.com/azhovan/currywurst/internal/orders"
+	"github.com/azhovan/currywurst/internal/terminals"
 )
 
 func Test_Run(t *testing.T) {

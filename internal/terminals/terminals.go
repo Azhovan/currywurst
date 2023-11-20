@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/currywurst/internal/orders"
+	"github.com/azhovan/currywurst/internal/orders"
 )
 
 var (

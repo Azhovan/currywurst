@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/currywurst/internal/cashregister"
-	"github.com/currywurst/pkg"
+	"github.com/azhovan/currywurst/internal/cashregister"
+	"github.com/azhovan/currywurst/pkg"
 )
 
 var (

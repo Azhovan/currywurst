@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"os"
 
-	. "github.com/currywurst/cmd/api-server"
-	"github.com/currywurst/internal/utils"
-	"github.com/currywurst/internal/workers"
+	. "github.com/azhovan/currywurst/cmd/api-server"
+	"github.com/azhovan/currywurst/internal/utils"
+	"github.com/azhovan/currywurst/internal/workers"
 )
 
 func main() {
