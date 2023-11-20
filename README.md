@@ -8,7 +8,7 @@ and a cash register to process the orders and return the change.
 The application supports two types of orders: `vegan` and `non-vegan`. The price for these orders
 are 30 and 35 cents repectively defined [here](./pkg/order_types.go#L27)
 
-The application has three terminals: `terminal-1`, `terminal-2`, and `terminal-3`.
+The application has three terminals: `terminal-0`, `terminal-1`, and `terminal-2`.
 Each terminal can handle one order at a time. The customer can choose which terminal to send the order to
 by specifying the terminalId in the request body. For example:
 
